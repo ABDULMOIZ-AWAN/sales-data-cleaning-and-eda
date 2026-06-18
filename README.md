@@ -18,15 +18,17 @@ Time period: January 2023 – December 2023
 Total revenue analyzed: $88,443
 
 
-
-Project Structure
-
+##  Project Structure
+```text
 sales-data-cleaning-and-eda/
+│
 ├── data/
-│   ├── dirty_cafe_sales.csv          # Original raw dataset (never modified)
-│   └── cafe_sales_cleaned.csv        # Exported clean dataset
-├── 01_exploration.ipynb              # Data profiling and problem identification
-├── 02_cleaning.ipynb                 # Full cleaning pipeline
-├── 03_visualization.ipynb            # EDA and business insights
-├── requirements.txt                  # Python dependencies
-└── README.md
+│   ├── dirty_cafe_sales.csv      # Original raw dataset (never modified)
+│   └── cafe_sales_cleaned.csv    # Cleaned dataset after preprocessing
+│
+├── 01_exploration.ipynb          # Data profiling and issue identification
+├── 02_cleaning.ipynb             # Complete data cleaning workflow
+├── 03_visualization.ipynb        # Exploratory Data Analysis (EDA) and insights
+├── requirements.txt              # Project dependencies
+└── README.md                     # Project documentation
+```
